@@ -1,0 +1,21 @@
+div#simpleLoadingIndicator {
+  display: none;
+}
+div#simpleLoadingIndicator.loading {
+  display: block;
+  position: fixed;
+  top: 0px;
+  height: 4px;
+  left: 0px;
+  right: 0px;
+  background: black
+}
+div#simpleLoadingIndicator div {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 4px;
+  width: 0%;
+  background: red;
+}
