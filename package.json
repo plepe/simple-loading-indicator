@@ -1,0 +1,13 @@
+{
+  "name": "simple-loading-indicator",
+  "version": "0.0.0",
+  "description": "A simple loading indicator for web pages",
+  "main": "src/SimpleLoadingIndicator.js",
+  "repository": {
+    "url": "https://github.com/plepe/simple-loading-indicator.git",
+    "type": "git"
+  },
+  "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
+  "license": "GPL-3.0",
+  "website": "https://github.com/plepe/simple-loading-indicator"
+}
