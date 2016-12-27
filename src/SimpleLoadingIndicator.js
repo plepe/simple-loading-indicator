@@ -19,6 +19,7 @@ SimpleLoadingIndicator.init = function () {
 
 SimpleLoadingIndicator.setActive = function () {
   this.init()
+  this.active = true
 
   divSimpleLoadingIndicator.className = 'loading'
   this.setValue(0)
@@ -26,6 +27,7 @@ SimpleLoadingIndicator.setActive = function () {
 
 SimpleLoadingIndicator.setInactive = function () {
   this.init()
+  this.active = false
 
   divSimpleLoadingIndicator.className = ''
 }
