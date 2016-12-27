@@ -16,3 +16,10 @@ simpleLoadingIndicator.setActive()   // show loading indicator
 simpleLoadingIndicator.setValue(0.5) // 50% received
 simpleLoadingIndicator.setInactive() // hide loading indicator
 ```
+
+# Development
+```sh
+git clone https://github.com/plepe/simple-loading-indicator.git
+cd simple-loading-indicator
+npm run doc # generate API documentation in doc/
+```

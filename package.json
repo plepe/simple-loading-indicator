@@ -12,5 +12,11 @@
   "website": "https://github.com/plepe/simple-loading-indicator",
   "dependencies": {
     "browserify-css": "^0.9.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  },
+  "scripts": {
+    "doc": "jsdoc -d doc/ src/*.js"
   }
 }
