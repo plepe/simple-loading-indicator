@@ -29,7 +29,11 @@ SimpleLoadingIndicator.setInactive = function () {
   this.init()
   this.active = false
 
-  divSimpleLoadingIndicator.className = ''
+  setTimeout(function () {
+    if (!this.active) {
+      divSimpleLoadingIndicator.className = ''
+    }
+  }.bind(this), 200)
 }
 
 SimpleLoadingIndicator.setValue = function (value) {
