@@ -9,5 +9,8 @@
   },
   "author": "Stephan Bösch-Plepelits <skunk@xover.mud.at>",
   "license": "GPL-3.0",
-  "website": "https://github.com/plepe/simple-loading-indicator"
+  "website": "https://github.com/plepe/simple-loading-indicator",
+  "dependencies": {
+    "browserify-css": "^0.9.2"
+  }
 }
