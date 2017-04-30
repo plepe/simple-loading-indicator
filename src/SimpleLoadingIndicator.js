@@ -14,7 +14,7 @@ function SimpleLoadingIndicator () {
 SimpleLoadingIndicator.init = function () {
   if (!divSimpleLoadingIndicator) {
     divSimpleLoadingIndicator = document.createElement('div')
-    divSimpleLoadingIndicator.id = 'SimpleLoadingIndicator'
+    divSimpleLoadingIndicator.id = 'simpleLoadingIndicator'
     document.body.appendChild(divSimpleLoadingIndicator)
 
     divSimpleLoadingIndicator.appendChild(document.createElement('div'))
